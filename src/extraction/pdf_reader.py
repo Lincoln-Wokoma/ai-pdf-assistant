@@ -20,4 +20,4 @@ def extract_text_from_pdf(pdf_path: Union[str, Path]) -> str:
 
 if __name__ == "__main__":
     doc_path = input("Enter the path to the PDF file: ")
-    print(extract_text_from_pdf(Path(doc_path)))
+    text= (extract_text_from_pdf(Path(doc_path)))  # Split the text into chunks based on double newlines
