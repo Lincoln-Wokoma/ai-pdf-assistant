@@ -3,7 +3,7 @@ pdf-ai/
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Environment Variables
 .env
@@ -18,6 +18,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# ChromaDB
 chromadb/
-__pycache__/
-*.py[cod]
